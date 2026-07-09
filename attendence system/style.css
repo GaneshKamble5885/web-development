@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+    font-size: 30px;
+}
+
+.search button {
+    padding: 0px 10px;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+}
+
+.container {
+    width: 60rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 20px; */
+}
+
+.primary {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.box {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    color: white;
+    gap: 2px;
+}
+
+.roll {
+    width: 100%;
+    padding: 10px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.name {
+    width: 100%;
+    padding: 5px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.status {
+    width: 100%;
+    padding: 5px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80px;
+
+}
+
+.firstcolumn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.secondcolumn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.thirdcolumn {
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.mark {
+    padding: 0px 20px;
+    font-size: 15px;
+    margin: 10px;
+}
